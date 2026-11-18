@@ -1,0 +1,4 @@
+extends: default.yaml
+model:
+  use_projection: false
+  d_model: 512

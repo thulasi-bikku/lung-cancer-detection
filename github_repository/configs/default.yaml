@@ -1,0 +1,30 @@
+# Default configuration (reference settings of this implementation; values not stated in the manuscript, e.g. heads, FFN width, dropout, seed,
+# are PyTorch defaults and should be confirmed against the original run). Consumed by `python -m src.train --config configs/default.yaml`.
+seed: 42
+image_size: 224
+n_folds: 5
+
+model:
+  d_model: 256
+  n_layers: 2
+  n_heads: 8
+  ffn_dim: 2048
+  dropout: 0.1
+  use_projection: true
+  use_pos_embed: true
+
+train:
+  epochs: 20
+  batch_size: 16
+  lr: 1.0e-4
+  early_stopping_patience: 5
+  scheduler_factor: 0.5
+  scheduler_patience: 2
+  monitor: val_acc          # checkpoint / early-stopping metric
+  num_workers: 2
+
+augmentation:
+  crop_scale: [0.8, 1.0]
+  rotation_deg: 10
+  brightness: 0.2
+  noise_std: 0.01

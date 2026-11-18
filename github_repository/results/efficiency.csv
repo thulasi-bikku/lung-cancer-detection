@@ -1,0 +1,5 @@
+model,gpu_ms,cpu_ms,gpu_mem_mb,size_mb,flops_g
+ResNet18,8.2,42.5,245,44.8,1.82
+EfficientNet-B3,12.5,55.1,410,48.2,1.92
+Swin-T,18.7,78.2,680,113.5,4.50
+Hybrid (proposed),11.4,51.3,320,58.7,2.35

@@ -1,0 +1,4 @@
+# ResNet18 + 1x1 projection only (no Transformer encoder)
+extends: default.yaml
+model:
+  n_layers: 0

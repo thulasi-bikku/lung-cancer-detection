@@ -1,0 +1,4 @@
+class,precision,recall,f1,support
+Benign,1.00,0.88,0.93,24
+Malignant,0.99,1.00,1.00,112
+Normal,0.98,1.00,0.99,83

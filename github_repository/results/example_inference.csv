@@ -1,0 +1,4 @@
+case,predicted,confidence_pct,p_benign_pct,p_malignant_pct,p_normal_pct
+Benign,Benign,98.97,98.97,0.01,1.01
+Malignant,Malignant,99.96,0.01,99.96,0.03
+Normal,Normal,99.97,0.01,0.02,99.97

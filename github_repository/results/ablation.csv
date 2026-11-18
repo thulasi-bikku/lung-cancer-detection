@@ -1,0 +1,8 @@
+variant,accuracy,macro_precision,macro_recall,macro_f1
+ResNet18 baseline,91.05,90.12,89.45,89.78
+ResNet18 + projection,92.47,91.85,90.91,91.37
+ResNet18 + Transformer (no projection),94.12,93.78,92.65,93.21
+Hybrid without positional embedding,97.18,96.95,95.47,96.19
+Hybrid 1 layer,96.35,96.12,94.89,95.49
+Hybrid 2 layers (proposed),98.00,98.24,96.39,97.29
+Hybrid 4 layers,98.12,98.31,96.52,97.39

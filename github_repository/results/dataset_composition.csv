@@ -1,0 +1,4 @@
+class,cases,slices
+Normal,55,416
+Benign,15,120
+Malignant,40,561

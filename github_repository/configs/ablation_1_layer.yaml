@@ -1,0 +1,3 @@
+extends: default.yaml
+model:
+  n_layers: 1

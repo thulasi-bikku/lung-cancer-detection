@@ -1,0 +1,3 @@
+extends: default.yaml
+model:
+  use_pos_embed: false
